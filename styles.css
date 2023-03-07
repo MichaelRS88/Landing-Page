@@ -32,6 +32,8 @@ ul,li{
 .titlemain{
     font-size: 48px;
     font-weight: extra-bold;
+    color: #f9faf8;
+    padding: 0;
 }
 
 .bgheader{
@@ -40,9 +42,30 @@ ul,li{
 
 .bttnlgup{
     background-color: #3882f6;
-    color: ##f9faf8;
-    border-radius: 5px;
+    color: #f9faf8;
+    border-radius: 12px;
     padding: 5px 24px 5px 24px;
     border: none;
     font-size: 18px;
+
 }
+
+.imghero{
+    height: auto;
+    width: 300px;
+}
+
+#section1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-around;
+    padding: 16px;
+    /*line-height: 26px */
+
+}
+
+.sec1div1{
+  
+}
+
