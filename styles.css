@@ -60,12 +60,41 @@ ul,li{
     align-items: center;
     gap: 16px;
     justify-content: space-around;
-    padding: 16px;
+    padding: 64px 16px 64px 16px;
     /*line-height: 26px */
 
 }
 
-.sec1div1{
-  
+#section2{
+    text-align: center;
+    background-color: #FFF;
+    padding: 24px 24px 48px 24px;
+}
+
+.box1{
+    height: 150px;
+    width: 150px;
+    border: dotted red 4px;
+}
+.box2{
+    height: 150px;
+    width: 150px;
+    border: dotted magenta 4px;
+}
+.box3{
+    height: 150px;
+    width: 150px;
+    border: dotted blue 4px;
+}
+.box4{
+    height: 150px;
+    width: 150px;
+    border: dotted green 4px;
+}
+
+.boxcontainer{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
