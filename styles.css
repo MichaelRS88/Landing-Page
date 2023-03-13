@@ -69,32 +69,83 @@ ul,li{
     text-align: center;
     background-color: #FFF;
     padding: 24px 24px 48px 24px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.box1{
+.Kratos{
     height: 150px;
     width: 150px;
-    border: dotted red 4px;
+
 }
-.box2{
+.Atreus{
     height: 150px;
     width: 150px;
-    border: dotted magenta 4px;
+    
 }
-.box3{
+.Freya{
     height: 150px;
     width: 150px;
-    border: dotted blue 4px;
+    
 }
-.box4{
+.Mimir{
     height: 150px;
     width: 150px;
-    border: dotted green 4px;
+    
 }
 
 .boxcontainer{
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
+    
 }
 
+#section3{
+   background-color: #e5e7eb;
+   font-size: 36px;
+   font-style: italic;
+   color: #1f2937;
+   margin: 0 auto;
+   padding: 64px 264px 64px 264px;
+}
+
+.signauthor{
+    text-align: right; 
+}
+
+footer{
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding: 28px;
+}
+
+.container2{
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    gap: 16px;
+    padding: 16px;
+    border: #FFF 48px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+.bttnlgup2{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    padding: 5px 24px 5px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: solid #FFF 2px;
+}
