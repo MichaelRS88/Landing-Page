@@ -1,13 +1,20 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 header{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #1f2937;
+}
+
+#divlogo{
+    display: flex;
+    align-items: center;
 }
 
 .headerlogo{
@@ -15,11 +22,28 @@ header{
     font-size: 24px;
 }
 
+
 .headerlinks{
     color: #e5e7eb;
     font-size: 18px;
 }
 
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+a:hover{
+    transition-duration: 0.5s;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #3882f6;
+    border-radius: 8px;
+}
+
+a:visited{
+    color: #e5e7eb;
+}
 
 ul,li{
     list-style: none;
@@ -50,9 +74,22 @@ ul,li{
 
 }
 
+.bttnlgup:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+    transition-duration: 0.6s;
+}
+
+#GOWR{
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+}
+
 .imghero{
     height: auto;
-    width: 300px;
+    width: 400px;
+    border-radius: 5px;
 }
 
 #section1{
@@ -115,6 +152,7 @@ ul,li{
 
 .signauthor{
     text-align: right; 
+    font-size: 24px;
 }
 
 footer{
@@ -122,7 +160,7 @@ footer{
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #1f2937;
     padding: 28px;
 }
@@ -135,17 +173,27 @@ footer{
     margin: 0 auto;
     gap: 16px;
     padding: 16px;
-    border: #FFF 48px;
+    border: #3882f6 solid 5px;
     border-radius: 10px;
     color: #FFF;
 }
 
 .bttnlgup2{
     background-color: #3882f6;
-    color: #f9faf8;
+    color: #FFF;
     border-radius: 12px;
     padding: 5px 24px 5px 24px;
     font-size: 18px;
     border-radius: 10px;
     border: solid #FFF 2px;
+}
+
+.bttnlgup2:hover{
+    background-color: #FFF;
+    color: #3882f6;
+    transition-duration: 0.5s;
+}
+
+.container3{
+    padding: 84px;
 }
