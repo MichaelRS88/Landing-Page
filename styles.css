@@ -1,7 +1,8 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
+    
 }
 
 header{
@@ -9,12 +10,20 @@ header{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    background-color: #1f2937;
+    background-color: #1F2937;
+}
+
+#godofwarlogo{
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+
 }
 
 #divlogo{
     display: flex;
     align-items: center;
+    
 }
 
 .headerlogo{
@@ -22,50 +31,51 @@ header{
     font-size: 24px;
 }
 
-
 .headerlinks{
-    color: #e5e7eb;
+    color: #E5E7Eb;
     font-size: 18px;
 }
 
 a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: #E5E7Eb;
 }
 
 a:hover{
-    transition-duration: 0.5s;
+    
+    transition-duration: 0.5s; 
     font-weight: 700;
     font-size: 22px;
-    background-color: #3882f6;
+    background-color: #3882F6;
     border-radius: 8px;
+    
 }
 
 a:visited{
-    color: #e5e7eb;
+    color: #E5E7Eb;
 }
 
-ul,li{
+
+ul, li{
     list-style: none;
     display: flex;
     gap: 16px;
 
 }
 
-
 .titlemain{
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    padding: 0;
+       
 }
 
 .bgheader{
-    background-color: #1f2937;
+    background-color: #1F2937;
 }
 
-.bttnlgup{
-    background-color: #3882f6;
+.btnsignup{
+    background-color: #3882F6;
     color: #f9faf8;
     border-radius: 12px;
     padding: 5px 24px 5px 24px;
@@ -74,17 +84,12 @@ ul,li{
 
 }
 
-.bttnlgup:hover{
+.btnsignup:hover{
     background-color: #f9faf8;
-    color: #3882f6;
+    color: #3882F6;
     transition-duration: 0.6s;
 }
 
-#GOWR{
-    height: 80px;
-    width: 100px;
-    padding: 8px;
-}
 
 .imghero{
     height: auto;
@@ -97,12 +102,13 @@ ul,li{
     align-items: center;
     gap: 16px;
     justify-content: space-around;
-    padding: 64px 16px 64px 16px;
-    /*line-height: 26px */
-
+    padding: 64px 16px 120px 16px;
+    /* line-height: 26px; */
+    
 }
 
 #section2{
+    
     text-align: center;
     background-color: #FFF;
     padding: 24px 24px 48px 24px;
@@ -110,88 +116,77 @@ ul,li{
     align-items: center;
     max-width: 650px;
     margin: 0 auto;
-    padding: 0;
-}
-
-.Kratos{
-    height: 150px;
-    width: 150px;
 
 }
-.Atreus{
-    height: 150px;
-    width: 150px;
-    
-}
-.Freya{
-    height: 150px;
-    width: 150px;
-    
-}
-.Mimir{
-    height: 150px;
-    width: 150px;
-    
-}
+
+.icondata{
+    height: 200px;
+    width: 200px;
+ }
+
 
 .boxcontainer{
     display: flex;
     gap: 16px;
     justify-content: center;
     
+
 }
 
 #section3{
-   background-color: #e5e7eb;
-   font-size: 36px;
-   font-style: italic;
-   color: #1f2937;
-   margin: 0 auto;
-   padding: 64px 264px 64px 264px;
+    background-color: #E5E7Eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 64px 264px 64px 264px;
+
 }
 
 .signauthor{
-    text-align: right; 
+    text-align: right;
     font-size: 24px;
 }
 
 footer{
-    color: #FFF;
+    color: #fff;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: #1F2937;
     padding: 28px;
 }
 
 .container2{
     display: flex;
-    background-color: #3882f6;
+    background-color: #3882F6;
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
     gap: 16px;
     padding: 16px;
-    border: #3882f6 solid 5px;
+    border: #3882F6 solid 5px;
     border-radius: 10px;
-    color: #FFF;
+    color: #fff;
+
 }
 
-.bttnlgup2{
-    background-color: #3882f6;
-    color: #FFF;
+.btnsignup2{
+    background-color: #3882F6;
+    color: #fff;
     border-radius: 12px;
     padding: 5px 24px 5px 24px;
     font-size: 18px;
     border-radius: 10px;
-    border: solid #FFF 2px;
+    border: solid #fff 2px;
+
 }
 
-.bttnlgup2:hover{
+.btnsignup2:hover{
     background-color: #FFF;
-    color: #3882f6;
+    color: #3882F6;
     transition-duration: 0.5s;
+
 }
 
 .container3{
